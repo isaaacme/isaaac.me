@@ -19,7 +19,7 @@ body{
 }
 
 img{
-	max-width: 60%;
+	max-width: 80%;
 	border-radius: 8px;
 }
 
@@ -27,11 +27,16 @@ a{
 	text-decoration: none;
 	color: var(--accent);
 	font-weight: 600;
+	transition: all .32s ease-in-out;
+}
+
+a:hover{
+	color: var(--main);
 }
 
 
 main, header, footer{
-	max-width: 600px;
+	max-width: 36rem;
 	margin:  0 auto;
 }
 
@@ -48,6 +53,14 @@ header em{
 }
 
 nav li{margin-right: .75rem;}
+
+nav a{
+	color: var(--grey);
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
 
 h1{
 	font-size: 1.6rem;

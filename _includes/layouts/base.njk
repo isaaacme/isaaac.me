@@ -4,7 +4,7 @@
 	{% include "components/head.njk" %}
 
 	<body>
-
+		<div class='wrap'>
 		<header>
 			<em>
 				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
@@ -16,8 +16,7 @@
 			{{ layoutContent | safe }}
 		</main>
 
-		{% include "components/footer.njk" %}
-
+			</div>
 	</body>
 
 </html>
