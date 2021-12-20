@@ -7,14 +7,10 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+![Alt text](https://live.staticflickr.com/1445/24535662273_c80b7504e9_o.jpg)
+# isaac feldman is a designer and developer who sometime builds stuff online.
+you can look at my portfolio [here](https://isaaac.me), listen to me talk about no-code with cool people [here](https://open.spotify.com/show/1wdQScOURAKYvg2EViYo0h0), and if you want to set a time to consult about no-code tools or how get a project going, you can do it [here](https://tidycal.com/webmachines/consulting-no-code-call).
 
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
