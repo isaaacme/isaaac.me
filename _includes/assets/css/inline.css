@@ -21,8 +21,12 @@ body{
 	color: var(--black);
 }
 
+h1,h2,h3,h4,h5{
+	text-transform: capitalize;
+}
+
 img{
-	max-width: 80%;
+	max-width: 100%;
 	border-radius: 8px;
 	margin:1.5rem 0;
 
@@ -81,12 +85,14 @@ h1{
 }
 
 
+
 .post{
-	padding: 1rem 1.5rem;
+	padding: 1rem 0;
 }
 
 .post h3{
-	font-size: 1.4rem;
+	font-size: 1.35rem;
+	line-height: 1.5;
 }
 
 .post .meta, .meta a{
@@ -96,7 +102,7 @@ h1{
 
 .tags{
 	font-size: .75rem;
-	margin-top: .5rem;
+	margin-top: 1rem;
 }
 
 .tags a {

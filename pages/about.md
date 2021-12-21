@@ -1,13 +1,12 @@
 ---
-title: about us
-metaDescription: This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.desciption will be used instead.
-date: 2017-01-01T00:00:00.000Z
+title: about isaac 
+metaDescription: this is some text about isaac
+date: 2021-12-21
 permalink: /about/index.html
 eleventyNavigation:
   key: about
   order: 1
 ---
+![me](../static/img/me.png "me")  
 
-hi, isaac here. i am a graphic designer who has been at it
-for about a decade. i am a self-taught developer and an avid fan of the no-code thing.
-at this point my focus is to do meaningful work for myself and work with good people.
+hi, isaac here. i am a graphic designer who has been at it for about 10 years or so. i am a self-taught developer and an avid fan of the no-code thing. at this point my focus is to do meaningful work for myself and work with good people.
