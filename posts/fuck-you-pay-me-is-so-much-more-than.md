@@ -1,6 +1,6 @@
 ---
 title: Fuck you, pay me! Is so much more than $$$
-date: 2021-12-21T12:09:45.717Z
+date: 2019-01-10T12:09:45.717Z
 author: Isaac feldman
 summary: Currency is nice, but experiences matter more
 tags:
