@@ -4,12 +4,13 @@ section: blog
 permalink: /blog/index.html
 ---
 <div>
+{% include "components/blogform.njk" %}
 <img src="../static/img/blog.jpg" alt="blog" style='width:100%;'>
 </div>
 <h1 class='page-title'>{{ title }}</h1>
 
 
-{{ layoutContent | safe }}
 
+{{ layoutContent | safe }}
 {% set postslist = collections.post %}
 {% include "components/postslist.njk" %}

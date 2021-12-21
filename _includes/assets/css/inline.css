@@ -133,6 +133,48 @@ h1{
 }
 
 
+.form-block{
+	background: var(--light-accent);
+	padding: 1rem;
+	border-radius: 8px;
+}
+.blog-form-title{
+	margin-bottom: .5rem;
+}
+.blog-form{
+	width: 100%;
+	display: grid;
+	grid:  1fr / 1fr 1fr .5fr ;
+	gap:.5rem;
+
+}
+
+.blog-form input{
+	border:0;
+	height: 40px;
+	text-indent: 10px;
+	font-family: inherit;
+
+}
+
+.blog-form button{
+	font-family: inherit;
+
+	font-size: 1rem;
+	border: 0;
+	background-color: var(--black);
+	color: white;
+	border-radius: 4px;
+	transition: all .37s ease-in-out;
+}
+
+.blog-form button:hover{
+	transform: translateZ(-6px) scale(.95);
+	background: var(--main);
+}
+
+
+
 @media only screen and (max-width: 440px){
 
 	
