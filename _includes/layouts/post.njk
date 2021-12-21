@@ -5,8 +5,8 @@ section: post
 
 <article>
   <h1 class='page-title'>{{ title }}</h1>
-  <p>
-    <small>
+  <p style='margin:.5rem 0 2rem;'>
+    <small style='font-size:.75rem;'>
       <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
     </small>
   </p>
