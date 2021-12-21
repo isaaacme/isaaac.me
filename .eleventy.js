@@ -42,6 +42,8 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
   });
 
+  
+
   // Date formatting (machine readable)
   eleventyConfig.addFilter("machineDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
@@ -80,6 +82,21 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/css/inline.css");
+
+//SEO plugin
+const pluginSEO = require("eleventy-plugin-seo");
+
+module.exports =  function(eleventyConfig) {
+  eleventyConfig.addPlugin(pluginSEO, {
+    title: "isaaac.me",
+    description: "isaac feldman is a designer and developer who sometimes builds stuff online.",
+    url: "https://isaaac.me",
+    author: "isaac feldman",
+    twitter: "isaaacme",
+    image: "/img/share-img.jpg"
+  });
+};
+
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
