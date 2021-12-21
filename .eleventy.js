@@ -83,19 +83,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/css/inline.css");
 
-//SEO plugin
-const pluginSEO = require("eleventy-plugin-seo");
-
-module.exports =  function(eleventyConfig) {
-  eleventyConfig.addPlugin(pluginSEO, {
-    title: "isaaac.me",
-    description: "isaac feldman is a designer and developer who sometimes builds stuff online.",
-    url: "https://isaaac.me",
-    author: "isaac feldman",
-    twitter: "isaaacme",
-    image: "/img/share-img.jpg"
-  });
-};
 
 
   /* Markdown Plugins */

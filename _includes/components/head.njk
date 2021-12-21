@@ -2,9 +2,23 @@
   <meta charset="utf-8">
   <link rel="dns-prefetch" href="https://identity.netlify.com">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {% seo "" %}
-  <title>{{ renderData.title or title or metadata.title }}</title>
-  <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
+<!-- Meta Tags -->
+<title>{{ renderData.title or title or metadata.title }}</title>
+<meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://isaaac.me/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="isaac feldman">
+<meta property="og:description" content="isaac feldman is a designer and developer who sometime builds stuff online.">
+<meta property="og:image" content="/img/share-img.jpg">
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="isaaac.me">
+<meta property="twitter:url" content="https://isaaac.me/">
+<meta name="twitter:title" content="isaac feldman">
+<meta name="twitter:description" content="isaac feldman is a designer and developer who sometime builds stuff online.">
+<meta name="twitter:image" content="/img/share-img.jpg">
+<!-- Meta Tags --> 
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet">
