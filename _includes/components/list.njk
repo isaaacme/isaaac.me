@@ -1,6 +1,10 @@
+
+
+
+
 <section>
     <br /><br />    
-	{% for project in projectlist | reverse %}
+	{% for post in posts | reverse %}
     {% if loop.index0 < 2 %} 
 		<article class='post'{% if post.url == url %} data-current="current item"{% endif %}>
 			<h3>
@@ -36,3 +40,4 @@
         {% endif %}
 	{% endfor %}
 </section>
+

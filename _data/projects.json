@@ -1,32 +1,20 @@
 [
     {
-        "title": "project title one",
-        "project_description":"this is the description of this particular project , explaining what this is all about in a short manner.",
-        "main_image":"url of the image",
-        "link":"link to the live project, needs to be checked and hidden if it doesnt exist"
+        "title": "webmachines podcast",
+        "description":"a podcast exploring the nocode world with deep dives with key players in the space",
+        "main_image":"../static/img/webmachines-podcast.jpg",
+        "link":"https://anchor.fm/thewebmachines"
     },
     {
-        "title": "project title two",
-        "project_description":"this is the description of this particular project , explaining what this is all about in a short manner.",
-        "main_image":"url of the image",
-        "link":"link to the live project, needs to be checked and hidden if it doesnt exist"
+        "title": "no-code israel facebook group",
+        "description":"The largest no-code community in israel",
+        "main_image":"../static/img/nocode-il.jpg",
+        "link":"https://www.facebook.com/groups/1269292623459698"
     },
     {
-        "title": "project title three",
-        "project_description":"this is the description of this particular project , explaining what this is all about in a short manner.",
-        "main_image":"url of the image",
-        "link":"link to the live project, needs to be checked and hidden if it doesnt exist"
-    },
-    {
-        "title": "project title four",
-        "project_description":"this is the description of this particular project , explaining what this is all about in a short manner.",
-        "main_image":"url of the image",
-        "link":"link to the live project, needs to be checked and hidden if it doesnt exist"
-    },
-    {
-        "title": "project title five",
-        "project_description":"this is the description of this particular project , explaining what this is all about in a short manner.",
-        "main_image":"url of the image",
-        "link":"link to the live project, needs to be checked and hidden if it doesnt exist"
+        "title": "samim kashim shop",
+        "description":"a design shop where i play with colors and design",
+        "main_image":"../static/img/samim-kashim.jpg",
+        "link":"https://www.redbubble.com/people/tnoar/shop?asc=u"
     }
 ]

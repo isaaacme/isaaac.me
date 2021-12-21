@@ -34,7 +34,7 @@ img{
 	max-width: 100%;
 	border-radius: 8px;
 	margin:1.5rem 0;
-
+	border: 1px solid var(--light-grey);
 }
 
 a{
@@ -174,7 +174,16 @@ h1{
 	background: var(--main);
 }
 
+a.project{
+	background: var(--black);
+	border:0; padding:8px 21px; font-size:1rem;font-family:inherit; text-transform:capitalize;margin-top:1rem; transition: all .27s ease-in-out;display: inline-block;
+}
 
+a.project:hover{
+	color: var(--black);
+	background: var(--accent);
+	transform: translateZ(8px) scale(0.95);
+}
 
 @media only screen and (max-width: 440px){
 
