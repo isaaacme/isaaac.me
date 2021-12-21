@@ -126,6 +126,12 @@ h1{
 }
 
 
+.post-nav{
+	margin:2rem 0 0;
+	padding: 1rem;
+	background: var(--light-accent);
+}
+
 
 @media only screen and (max-width: 440px){
 
