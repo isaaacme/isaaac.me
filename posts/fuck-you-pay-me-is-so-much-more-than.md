@@ -6,6 +6,10 @@ summary: Currency is nice, but experiences matter more
 tags:
   - post
 ---
+![](/static/img/1_ycyzgedptpjmncdfi5hcaw.jpeg)
+
+
+
 The machine of positive reinforcement is at full throttle when it comes to designers and what is considered “spec work”, a concept so detested by designers at all levels, while at the same time hurling at stakeholders and clients words like “Value” as a sacred cow who we all should bow down and protect at all costs.
 
 <br/>The truth is that very little people actually care about value, and they are constantly get stared down by “real designers” who would never work “for free”, making sure to point out that that's how we devalue the whole industry and this is why clients are unwilling to pay for quality design.  
