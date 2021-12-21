@@ -7,7 +7,7 @@ permalink: /
 
 
 
-![image from my street](../static/img/street.jpg "my morning street view")  
+![image from my street](https://res.cloudinary.com/blicodesvideos/image/upload/v1640127014/street_fzfvew.jpg "my morning street view")  
 
 # isaac feldman is a designer and developer who sometimes builds stuff online.  <br /><br />
 
