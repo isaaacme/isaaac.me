@@ -1,5 +1,32 @@
 [
     {
-        "title": "lol"
+        "title": "project title one",
+        "project_description":"this is the description of this particular project , explaining what this is all about in a short manner.",
+        "main_image":"url of the image",
+        "link":"link to the live project, needs to be checked and hidden if it doesnt exist"
+    },
+    {
+        "title": "project title two",
+        "project_description":"this is the description of this particular project , explaining what this is all about in a short manner.",
+        "main_image":"url of the image",
+        "link":"link to the live project, needs to be checked and hidden if it doesnt exist"
+    },
+    {
+        "title": "project title three",
+        "project_description":"this is the description of this particular project , explaining what this is all about in a short manner.",
+        "main_image":"url of the image",
+        "link":"link to the live project, needs to be checked and hidden if it doesnt exist"
+    },
+    {
+        "title": "project title four",
+        "project_description":"this is the description of this particular project , explaining what this is all about in a short manner.",
+        "main_image":"url of the image",
+        "link":"link to the live project, needs to be checked and hidden if it doesnt exist"
+    },
+    {
+        "title": "project title five",
+        "project_description":"this is the description of this particular project , explaining what this is all about in a short manner.",
+        "main_image":"url of the image",
+        "link":"link to the live project, needs to be checked and hidden if it doesnt exist"
     }
 ]
