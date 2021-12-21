@@ -7,6 +7,7 @@ eleventyNavigation:
   key: about
   order: 1
 ---
+
 hi, isaac here. i am a graphic designer who has been at it
 for about a decade. i am a self-taught developer and an avid fan of the no-code thing.
-at this point my focus is to do meaningful work for myself
+at this point my focus is to do meaningful work for myself and work with good people.

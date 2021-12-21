@@ -1,6 +1,7 @@
 :root{
 	--main:tomato;
 	--accent: goldenrod;
+	--light-accent: rgba(255, 183, 0, 0.404);
 	--black:#111;
 	--grey:#454545;
 	--light-grey:#45454531;
@@ -51,6 +52,14 @@ header{
 header em{
 	margin-right: 2rem;
 }
+.page-title{
+	margin: .5rem 0 1rem;
+	padding: 0 6px;
+	background-color: var(--light-accent);
+	display: inline-block;
+
+}
+
  nav ul{
 	display: flex;
 	justify-content: space-between;
