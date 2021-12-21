@@ -137,6 +137,7 @@ h1{
 	background: var(--light-accent);
 	padding: 1rem;
 	border-radius: 8px;
+	margin: 1rem 0;;
 }
 .blog-form-title{
 	margin-bottom: .5rem;
