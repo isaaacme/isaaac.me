@@ -3,6 +3,8 @@
 	--accent: goldenrod;
 	--black:#111;
 	--grey:#454545;
+	--light-grey:#45454531;
+
 }
 
 
@@ -21,6 +23,8 @@ body{
 img{
 	max-width: 80%;
 	border-radius: 8px;
+	margin:1.5rem 0;
+
 }
 
 a{
@@ -56,6 +60,7 @@ nav li{margin-right: .75rem;}
 
 nav a{
 	color: var(--grey);
+	font-size: .85rem;
 }
 
 nav a:hover{
@@ -64,5 +69,31 @@ nav a:hover{
 
 h1{
 	font-size: 1.6rem;
-	margin:1rem 0 2rem;
+}
+
+
+.post{
+	padding: 1rem 1.5rem;
+}
+
+.post h3{
+	font-size: 1.4rem;
+}
+
+.post .meta, .meta a{
+	font-size: .75rem;
+	color: var(--grey);
+}
+
+.tags{
+	font-size: .75rem;
+	margin-top: .5rem;
+}
+
+.tags a {
+	padding: 4px 6px;
+	margin-right: .5rem;
+	color: var(--grey);
+	border-radius: 4px;
+	background-color:var(--light-grey) ;
 }
