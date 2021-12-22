@@ -1,20 +1,27 @@
 [
     {
+        "title": "Portfolio",
+        "description":"a curated collection of my work",
+        "main_image":"../share-img.jpg",
+        "link":"https://www.behance.net/isaaacme"
+    },
+
+    {
         "title": "webmachines podcast",
         "description":"a podcast exploring the nocode world with deep dives with key players in the space",
-        "main_image":"https://res.cloudinary.com/blicodesvideos/image/upload/v1640126674/webmachines-podcast_wonbew.jpg",
+        "main_image":"../static/img/webmachines-podcast.jpg",
         "link":"https://anchor.fm/thewebmachines"
     },
     {
         "title": "no-code israel facebook group",
         "description":"The largest no-code community in israel",
-        "main_image":"https://res.cloudinary.com/blicodesvideos/image/upload/v1640126674/nocode-il_li1fi2.jpg",
+        "main_image":"../static/img/nocode-il.jpg",
         "link":"https://www.facebook.com/groups/1269292623459698"
     },
     {
         "title": "samim kashim shop",
         "description":"a design shop where i play with colors and design",
-        "main_image":"https://res.cloudinary.com/blicodesvideos/image/upload/v1640126675/samim-kashim_bqj2nz.jpg",
+        "main_image":"../static/img/samim-kashim.jpg",
         "link":"https://www.redbubble.com/people/tnoar/shop?asc=u"
     }
 ]
