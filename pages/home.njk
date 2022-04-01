@@ -1,0 +1,32 @@
+---
+layout: layouts/home.njk
+title: isaaac's website
+date: 2016-01-01T00:00:00.000Z
+permalink: /
+---
+<h1>
+    Hi, I’m Isaac Feldman <span>digital designer &amp; developer</span> delivering work that gets users going and stakeholders happy.
+</h1>  
+
+
+<section>
+    <h2>Projects</h2>
+    <ul>
+    {% for project in projects%}
+    <li>
+        <img src="{{ project.main_image}}"
+        alt="{{ project.title}}-image">
+        <h3>{{ project.title}}</h3>
+        <p>{{ project.description}}</p>
+        <a href="{{project.link}}">check it out</a>
+        <br/> <br/>
+    </li>
+    {% endfor %}
+
+    </ul>
+</section>
+
+{# you can look at my portfolio [here](https://www.behance.net/isaaacme "my behance profile"), check out my CV [here](https://www.dropbox.com/s/fvdpx7cjz8bql6q/Resume%202021.pdf?dl=0 "my CV") listen to me talk about no-code with cool people [here](https://open.spotify.com/show/1wdQScOURAKYvg2EViYo0h0 "the webmachines podcast"), and if you want to set a time to consult about no-code tools or how get a project going, you can do it [here](https://tidycal.com/webmachines/consulting-no-code-call "my calendar").
+<br /><br />
+ #}
+
