@@ -8,13 +8,13 @@
 
     {
         "title": "webmachines podcast",
-        "description":"a podcast exploring the nocode world with deep dives with key players in the space",
+        "description":"A podcast about the more interesting and least talked about subjects in the no-code space. Free form interviews with makers, Founders & visual developers",
         "main_image":"../static/img/webmachines-podcast.jpg",
         "link":"https://anchor.fm/thewebmachines"
     },
     {
         "title": "samim kashim shop",
-        "description":"a design shop where i play with colors and design",
+        "description":"Exclusive clothing brand from the weird side of the internet, brought to you risk free of dark web hackers and internet lurkers",
         "main_image":"../static/img/samim-kashim.jpg",
         "link":"https://www.redbubble.com/people/tnoar/shop?asc=u"
     }
