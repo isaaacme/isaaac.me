@@ -12,5 +12,3 @@ eleventyNavigation:
 hi, isaac here. i am a graphic designer who has been at it for about 10 years or so. i am a self-taught developer and an avid fan of the no-code thing. at this point my focus is to do meaningful work for myself and work with good people. <br /><br />
 
 my CV is [here](https://www.dropbox.com/s/fvdpx7cjz8bql6q/Resume%202021.pdf?dl=0)
-
-you can find me on [twitter](https://twitter.com/isaaacme "get ready for memes")
